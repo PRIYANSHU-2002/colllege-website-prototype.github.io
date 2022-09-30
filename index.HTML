@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<center>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> LOGIN PAGE  </title>
+   
+    
+    <header> <b><h1>  USER LOGIN  </h1> </b> </header>
+    
+    </br>
+    
+
+    
+    <hr width = "20% " color="silver">
+
+    </br>
+    </br>
+    </br>
+    </br>
+
+   
+   <style> 
+   
+   *{margin:0;}
+
+   body
+    {
+      background-image:url("Smiley.jpg");
+      background-size: 1550px 800px; /* FIRST VALUE FOR WIDTH & SECOND FOR HEIGHT */
+      
+      
+    }
+
+    header
+    {
+        color:#e3ff50;
+        background-color:#ffffff45;
+        display:inline-block;    /* TO RESTRICT BACKGROUND COLOUR UPTO THE TEXT ONLY */
+        font-size: 20px;
+
+    }
+    
+    .user   /* CALLING THE USER CLASS  */
+    {
+      font-size: 30px;
+      color:white;
+    }
+
+    .userin   /* CALLING THE USERIN CLASS  */
+    {
+      font-size: 20px;
+    }
+
+    .password
+    {
+        font-size: 30px;
+        color:white;
+    }
+
+    .passwordin
+    {
+        font-size: 20px;
+    }
+    
+    .submit
+    {
+        font-size: 25px;  
+    }
+
+     marquee
+   {
+     font-size:30px;
+     color:white;
+   }
+
+   table
+   {
+     width:500px;
+     height:500px;
+     border:white;
+     background-image: url("Key.jfif");
+     background-size: 100% 100%;
+     border-radius:30px;
+     border-style: double;
+     border-width:3px;
+     /*background-color: #0e0e0fb3;
+     color:whitesmoke;
+     display: inline-block; */
+   }
+
+   .forgot
+   {
+     font-size: 25px;
+     color:whitesmoke;
+   }
+
+    </style>
+
+</head>
+<body>
+
+    <marquee > <big> Hello User ! </big> </marquee>
+
+</br>
+</br>
+</br>
+</br>
+
+
+
+    <table cellspacing = "25">
+    <form action="HOME.HTML">
+     
+      <tr>   </tr>
+      
+        <tr>
+            <td>
+                    <label class="user" > USERNAME  </label> 
+            </td>
+      
+            <td>
+                   <input  class='userin' type="text" placeholder="ENTER YOUR USERNAME" > <!-- DEFINING INPUT TYPE FOR THE ABOVE LABEL  -->
+            </td>
+        </tr>
+     
+        <tr>   </tr>   <!-- BLANK ROWS ARE USED TO GIVE LINE BREAKS -->
+        <tr>   </tr>
+
+        <tr>
+            <td>
+                 <label class="password"> PASSWORD </label> 
+            </td>
+    
+            <td>
+               <input  class="passwordin" type="password" placeholder="ENTER YOUR PASSWORD">
+            </td>
+        </tr>
+       <tr>   </tr>
+       <tr>   </tr> <!-- BLANK ROWS ARE USED TO GIVE LINE BREAKS -->
+       <tr>   </tr>
+       
+        <tr>
+            <td colspan="2" align="center"> 
+               <input class ="submit" type = "submit" value = "LOG IN">        
+            </td>
+        </tr> 
+
+        <tr> 
+            <td colspan="2" align="center">
+                <big> <a  class="forgot" href="https://www.google.com/"  > FORGOT PASSWORD ? </a> </big>
+            </td>
+        </tr>
+
+    </form>
+  </table>
+</body>
+</center>
+</html>

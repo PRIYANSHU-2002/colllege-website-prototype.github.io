@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> REGISTRATION FORM </title>
+
+    <center> <header> <b> STUDENT REGISTRATION </b></header></center>
+     
+    <style>
+
+    header
+    {
+        font-size: 30px;
+        color:#40f95b;
+        background-color: #bb6e128f;
+        display:inline-block;
+        border:yellow;
+        border-radius: 15px;
+        border-width: 4px;
+        border-style: double;
+    }
+
+    body
+    {
+        background-image: url("Registration.jpg");
+        background-size: 100% 100%;
+        color:whitesmoke;
+    }
+     
+    label
+     {
+         font-size: 20px;
+     }
+     
+     input
+     {
+         font-size: 20px;
+     }
+
+     td
+     {
+         text-align: left;
+     }
+     
+     h3
+     {
+         text-align: left;
+     }
+
+     h4
+     {
+         text-align: left;
+         background-color: #e37f058f;
+         font-size: 20px;
+     }
+    
+     .address
+     {
+        width: 500px;
+        text-align: center;         
+     }
+
+     .register
+     {
+         background-color:#bb6e128f;
+         color: whitesmoke;
+         border:3px;
+         border-style: solid;
+         border-radius:30px;
+         border-color:white;
+         font-size: 25px;
+     }
+      
+     th
+     {
+         background-color: #e37f058f;
+         font-size: 20px;
+     }
+
+     .school_name
+     {
+         width: 500px;
+         text-align:center;
+     }
+
+     .year
+    {
+      width: 80px;
+      text-align:center;
+    }
+
+    .percentage
+    {
+      width: 78px;
+      text-align:center;
+    }
+
+    </style>
+
+
+</head>
+<body>
+    <form method = "post">
+        <table cellspacing="25px">
+           <tr> <th colspan="8"> <h3> &nbsp PERSONAL INFORMATION</h3> </th> </tr> <!-- HERE &nbsp HAS BEEN USED TO GIVE A NON-BREAKING SPACE BEFORE THE HEADING 'PERSONAL DETAILS'-->
+             <tr>
+              <td> <label> FIRST NAME </label> </td>
+               <td> <input type="text" placeholder="ENTER FIRST NAME"> </td> 
+                <td> <label> MIDDLE NAME </label> </td>
+                <td colspan="1.5"> <input type="text" placeholder="MIDDLE NAME (if any)"> </td>
+                <td> <label> LAST NAME </label> </td>
+                <td> <input type="text" placeholder="ENTER LAST NAME"> </td>  
+             </tr>
+
+             <tr>
+                <td> <label> MOTHER'S NAME </label> </td>
+                <td> <input type="text" placeholder="ENTER MOTHER'S NAME"> </td> 
+                <td> <label> FATHER'S NAME </label> </td>
+                <td> <input type="text" placeholder="ENTER FATHER'S NAME"> </td> 
+
+             </tr>
+             
+             <tr>
+                 <td> <label> DATE OF BIRTH </label> </td>
+                 <td> <input type = "date"></td>
+             </tr>
+
+             <tr><th colspan="8"><h3> &nbsp CONTACT DETAILS </h3> </th></tr>
+
+             <tr>
+                 <td> <label> MOBILE NO. </label> </td>
+                 <td> <input type="tel" placeholder=" Ex:-9876543210"> </td> 
+
+                 <td> <label> EMAIL-ID </label> </td>
+                 <td> <input type="email" placeholder="abc123@xyz.com"> </td> 
+
+             </tr>
+
+             <tr>
+                 <td> <label> CURRENT ADDRESS </label></td>
+                 <td> <input  class="address" type="address" placeholder="House No, Street Name, City, District, State - Pincode   "> </td>
+             </tr>
+
+             <tr>
+                <td> <label> PERMANENT ADDRESS </label></td>
+                <td> <input class="address" type="address" placeholder="House No, Street Name, City, District, State - Pincode   "> </td>
+            </tr>
+
+            <tr><th colspan="8"><h3> &nbsp EDUCATIONAL DETAILS </h3></th></tr> </br>  </br>
+            <tr><td colspan="8"><h4> &nbsp CLASS 10TH DETAILS</h4></td></tr>
+        
+
+            <tr>
+                <td> <label> PERCENTAGE </label></td>
+                <td> <input  class = "percentage" type="number"  placeholder=" 00.0%"> </td>
+
+                <td> <label> PASSING YEAR </label></td>
+                <td> <input class="year" type="number" placeholder="YYYY"> </td>
+
+            </tr>
+
+            <tr>
+                <td> <label> SCHOOL NAME </label></td>
+                <td> <input class="school_name" type="text" placeholder=" ENTER YOUR SCHOOL'S NAME"> </td>
+            </tr>
+
+            <tr>
+                <td> <label> SCHOOL ADDRESS </label></td>
+                <td> <input class="address" type="address" placeholder=" City, District, State - Pincode   "> </td>
+            </tr>
+            
+            <tr><td  colspan="8"><h4> &nbsp CLASS 12TH DETAILS</h4></td></tr>
+
+            <tr>
+                <td> <label> PERCENTAGE </label></td>
+                <td> <input class = "percentage" type="number" placeholder=" 00.0%"> </td>
+
+                <td> <label> PASSING YEAR </label></td>
+                <td> <input class="year" type="number" placeholder="YYYY"> </td>
+
+            </tr>
+
+            <tr>
+                <td> <label> SCHOOL NAME </label></td>
+                <td> <input class="school_name" type="text" placeholder=" ENTER YOUR SCHOOL'S NAME"> </td>
+            </tr>
+
+            <tr>
+                <td> <label> SCHOOL ADDRESS </label></td>
+                <td> <input class="address" type="address" placeholder=" City, District, State - Pincode   "> </td>
+            </tr>
+        
+        </table> 
+          
+       <center> <input  class ="register" type="submit" value="REGISTER"> </center>
+
+    </form>
+    
+</body>
+</html>
